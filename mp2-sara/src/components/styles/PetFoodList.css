@@ -1,0 +1,45 @@
+.petfood-container {
+    padding: 20px;
+  }
+  
+  .petfood-filter {
+    margin-bottom: 20px;
+  }
+  
+  .petfood-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  
+  .petfood-card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 12px;
+    background: white;
+    background-color: #f9f5f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* adiciona transição suave */
+  }
+  
+  .petfood-card:hover {
+    transform: translateY(-5px); /* levanta ligeiramente o card */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* sombra suave */
+  }
+
+  .petfood-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .petfood-card a {
+    color: rgb(152, 93, 22);
+  }
+
+  .petfood-card a:hover {
+    color: rgb(203, 132, 45);
+  }
+  
+  

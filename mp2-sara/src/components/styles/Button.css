@@ -1,0 +1,29 @@
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ac7a3d;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: 0.2s;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+  }
+  
+  .custom-button:hover {
+    background-color: #e1a863;
+  }
+
+  .custom-button:active {
+    background-color: #e48c21;
+  }
+  
+  .button-icon {
+    font-size: 16px;
+  }
+  

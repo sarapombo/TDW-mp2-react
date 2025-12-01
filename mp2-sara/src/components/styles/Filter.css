@@ -1,0 +1,33 @@
+.filter {
+    margin-bottom: 20px;
+  }
+  .filter select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+  /* Dropdown da raça */
+.breed-select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #d8cfc1;
+    background-color: #f9f5f0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .breed-select:focus {
+    border-color: #bfa27f;
+    box-shadow: 0 0 5px rgba(191, 162, 127, 0.5);
+  }
+  
+  /* Botão adicionar após escolher raça */
+  .button-row button:last-of-type {
+    margin-left: 10px; /* espaço entre o dropdown e o botão */
+  }
